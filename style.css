@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
 }
 .center {
     padding-right: calc(50% - 1140px/2);
