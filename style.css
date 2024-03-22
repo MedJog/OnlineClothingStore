@@ -127,6 +127,7 @@
 }
 .popular__products {
     padding-top: 48px;
+    padding-bottom: 48px;
     display: grid;
     grid-template-columns: repeat(3, 360px);
     gap: 30px;
@@ -167,4 +168,18 @@
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+}
+.button {
+    display: block;
+    margin: 48px auto 65px auto;
+    padding: 14px 39px;
+    border: 1px solid #F16D7F;
+    background: #FFF;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
 }
