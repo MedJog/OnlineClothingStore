@@ -28,7 +28,7 @@
 .brand {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     background-color: rgb(241, 228, 230);
     margin-bottom: 65px;
 
@@ -195,7 +195,7 @@
     line-height: normal;
 
 }
-@media (min-width: 768px)and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .center {
         padding-right: calc(50% - 734px/2);
         padding-left: calc(50% - 734px/2);
@@ -246,6 +246,54 @@
     }
     .card__price {
         margin-bottom: 20px;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .center {
+        padding-right: calc(50% - 310px/2);
+        padding-left: calc(50% - 310px/2);
+    }
+    .header {
+        padding-top: 25px;
+        padding-bottom: 26px;
+    }
+    .mobile__version {
+        display: none;
+    }
+    .brand { 
+        padding: 148px 56px 148px 56px;
+        justify-content: center; 
+    }
+    .heading_h1 {
+        font-size: 38px;
+    }
+    .heading_h2 {
+        font-size: 20px;
+    }
+    .color_pink {
+        font-size: 20px;
+    }
+    .category {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+    .big_card {
+        height: 111px; 
+    }
+    .color_pink {
+        font-size: 24px;
+    }
+    .popular__info {
+        margin-bottom: 64px;
+    }
+    .products__card {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .button {
+        margin: 40px auto 85px auto;
     }
 
 }
