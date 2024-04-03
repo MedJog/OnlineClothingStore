@@ -246,7 +246,6 @@
         justify-content: space-between;
         padding-top: 86px;
         padding-bottom: 126px;
-        margin-bottom: 300px;
 }
 .subscription__left {
     width: 45%;
@@ -318,6 +317,39 @@
     line-height: normal;
     background-color: #F16D7F;
     padding: 16px 12px;
+}
+.footer {
+    background: rgb(34, 34, 36);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__right {
+
+}
+.footer__text {
+    color: rgb(251, 251, 251);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.social__media {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    gap: 7px;
+}
+.media__icons {
+    background: rgb(255, 255, 255);
+    padding: 8px;
+    width: 20%;
 }
 
 
