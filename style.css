@@ -369,11 +369,9 @@
 .addition__info svg:hover path {
     fill: #F16D7F;
 }
-
-
-
-
-
+.media__icons:hover {
+    background: #F16D7F;
+}
 .email__button:hover {
     box-shadow: 1px 1px 5px;
     transform: scale(1.1);
