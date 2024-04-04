@@ -429,6 +429,24 @@
     .card__price {
         margin-bottom: 20px;
     }
+    .addition__information {
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+    .addition__info {
+        gap: 16px;
+        width: 50%;
+    }
+    .subscription {
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 53px;
+        padding-bottom: 140px;
+        background-position: left;
+    }
+    
 
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -476,5 +494,35 @@
     }
     .button {
         margin: 40px auto 85px auto;
+    }
+    .addition__information {
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+    .addition__info {
+        gap: 16px;
+        width: 100%;
+    }
+    .subscription {
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 53px;
+        padding-bottom: 140px;
+        background-position: left;
+    }
+    .subscription__left {
+        width: 100%;
+    }
+    .subscription__right {
+        width: 100%;
+    }
+    .footer {
+        padding-top: 43px;
+        padding-bottom: 10px;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
     }
 }
