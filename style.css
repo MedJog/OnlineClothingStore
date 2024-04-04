@@ -348,7 +348,6 @@
     align-items: center;
     opacity: 100%;
 }
-
 .hover__button {
     background: transparent; 
     display: flex;
@@ -363,11 +362,19 @@
     font-weight: 400;
     line-height: normal;
 }
+.button:hover {
+    color: #FFF;
+    background: #F16D7F;
+}
 
 
 
 
 
+.email__button:hover {
+    box-shadow: 1px 1px 5px;
+    transform: scale(1.1);
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .center {
